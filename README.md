@@ -5,7 +5,6 @@ Question about binding `0.0.0.0:9999` and `127.0.0.1:9999`
 
 ```
 brew install go
-go get
 go run hello.go
 ```
 
@@ -26,3 +25,5 @@ It's strange for me to understand the response, since:
 - `telnet <my-internal-ip> 9999`: `0.0.0.0` (OK)
 
 I'm confused about the responses of `telnet localhost 9999` and `telnet 0.0.0.0 9999`
+
+Question: <https://stackoverflow.com/questions/50096683/puzzled-about-the-telnet-localhost-and-telnet-0-0-0-0>
